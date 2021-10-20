@@ -1,0 +1,53 @@
+@import '../dist/theme/minimal.css';
+
+.reveal .background-secondary {
+  background-color: var(--r-secondary-background-color);
+  opacity: 0.95;
+  padding: 60px 20px;
+}
+
+.reveal .background-white {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 60px 20px;
+}
+
+.reveal .highlight {
+  background-color: var(--r-selection-background-color);
+  color: var(--r-selection-color);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.reveal .highlight-white {
+  background-color: var(--r-background-color);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.reveal .highlight-text {
+  color: var(--r-selection-background-color);
+  text-transform: uppercase;
+}
+
+.reveal .row {
+  display: flex;
+  justify-content: center;
+}
+
+.reveal .row .col {
+  padding: 30px;
+}
+
+.reveal .row .col.equal {
+  flex: 1;
+}
+
+.reveal .row .col.shrink {
+  flex-shrink: 2;
+}
+
+.reveal .valign-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
